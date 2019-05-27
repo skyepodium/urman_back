@@ -2,7 +2,7 @@ const http = require('http')
 const socket = require('socket.io')
 
 let server = http.createServer((req, res) => {
-}).listen(80);
+}).listen(3000);
 
 const io = socket(server)
 
